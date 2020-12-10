@@ -30,18 +30,20 @@ class HomePageState extends State<HomePage> with TickerProviderStateMixin {
         bgColor: Colors.white,
         themeColor: const Color(0xFFf74269),
         pages: pages,
-        skipClicked: (value) {
-          print(value);
-          _globalKey.currentState.showSnackBar(SnackBar(
-            content: Text("Skip clicked"),
-          ));
-        },
-        getStartedClicked: (value) {
-          print(value);
-          _globalKey.currentState.showSnackBar(SnackBar(
-            content: Text("Get Started clicked"),
-          ));
-        },
+
+        // skipClicked: (value) {
+        //   print(value);
+        //   _globalKey.currentState.showSnackBar(SnackBar(
+        //     content: Text("Skip clicked"),
+        //   ));
+        // },
+
+        // getStartedClicked: (value) {
+        //   print(value);
+        //   _globalKey.currentState.showSnackBar(SnackBar(
+        //     content: Text("Get Started clicked"),
+        //   ));
+        // },
       ),
     );
   }
